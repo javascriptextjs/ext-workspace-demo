@@ -1,0 +1,10 @@
+.x-grid-column-resizer {
+  content: '';
+  position: absolute;
+  right: -($grid-column-resizer-width/2);
+  width: $grid-column-resizer-width;
+  height: 100%;
+  background-color: transparent;
+  z-index: 1;
+  cursor: col-resize;
+}
